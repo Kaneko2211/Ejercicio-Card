@@ -111,25 +111,21 @@ h1{
 
 @media (min-width: 900px){
     picture {
-        width: 400px;
+        width: 350px;
         height: 100%;
     }
     picture img{
-        width: 400px;
+        width: 350px;
         height: 100%;
         border-radius: 15px 0px 0px 15px;
         object-fit: cover;
     }
     .container{
         flex-direction: row;
-        width: 800px;
-        height: 600px;
+        width: 700px;
+        height: 500px;
     }
     .cont-text{
-        padding: 50px 40px;
-        gap: 30x;
-    }
-    .but-cart{
-        margin-top: 30px;
+        padding: 30px 30px;
     }
 }
