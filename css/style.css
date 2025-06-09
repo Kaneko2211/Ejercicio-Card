@@ -118,6 +118,7 @@ h1{
         width: 400px;
         height: 100%;
         border-radius: 15px 0px 0px 15px;
+        object-fit: cover;
     }
     .container{
         flex-direction: row;
