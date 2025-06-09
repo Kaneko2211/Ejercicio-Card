@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    height: 100vh;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+picture img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.container{
+    background-color: white;
+    height: 740px;
+    width: 399px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.cont-text{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    /* height: 100%;*/
+    gap: 20px;
+    /* background-color: aquamarine; */
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
+}
+
+.text-per{
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family: "Fraunces";
+    font-size: 2.5em;
+    /*Montserrat*/
+}
+.text-flo{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    /* letter-spacing: 2px; */
+    font-family: "Montserrat";
+    line-height: 25px;
+}
+
+.cont-prec{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.text-verde{
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: 2.1em;
+    font-weight: 700;
+}
+.text-tach{
+    font-family: "Fraunces";
+    font-weight: 400;
+    font-family: 0.7em;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.but-cart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 60px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.but-cart img{
+    height: 20px;
+}
+.but-cart span{
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+.but-cart:hover{
+    background-color: hsl(158, 42%, 18%);
+    transition: 0.6s;
+}
+
+@media (min-width: 900px){
+    picture {
+        width: 400px;
+        height: 100%;
+    }
+    picture img{
+        width: 400px;
+        height: 100%;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .container{
+        flex-direction: row;
+        width: 800px;
+        height: 600px;
+    }
+    .cont-text{
+        padding: 50px 40px;
+        gap: 30x;
+    }
+    .but-cart{
+        margin-top: 30px;
+    }
+}
